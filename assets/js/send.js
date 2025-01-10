@@ -8,7 +8,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     const botToken = '7427307380:AAFwkxZqOL5QQTZBrATPFA27GZXMr17TJMM'; 
     const chatId = '5743378123'; 
   
-    const text = `👤 Имя: ${name}\n📧 Email: ${phone}\n📞 Сообщение: ${message}`;
+    const text = `👤 Имя: ${name}\n📧 Tel: ${phone}\n📞 Сообщение: ${message}`;
   
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
       method: 'POST',
