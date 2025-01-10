@@ -2,13 +2,13 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     e.preventDefault(); 
   
     const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
   
     const botToken = '7427307380:AAFwkxZqOL5QQTZBrATPFA27GZXMr17TJMM'; 
     const chatId = '5743378123'; 
   
-    const text = `👤 Имя: ${name}\n📧 Email: ${email}\n💬 Сообщение: ${message}`;
+    const text = `👤 Имя: ${name}\n📧 Email: ${phone}\n📞 Сообщение: ${message}`;
   
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
       method: 'POST',
