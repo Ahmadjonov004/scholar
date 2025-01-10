@@ -6,7 +6,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     const message = document.getElementById('message').value;
   
     const botToken = '7427307380:AAFwkxZqOL5QQTZBrATPFA27GZXMr17TJMM'; 
-    const chatId = '5774362777'; 
+    const chatId = '5743378123'; 
   
     const text = `👤 Имя: ${name}\n📧 Email: ${email}\n💬 Сообщение: ${message}`;
   
